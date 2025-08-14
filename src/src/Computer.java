@@ -53,6 +53,6 @@ public class Computer {
 
     public void printComputerInfo() {
         String powerStatus = isOn ? "Компьютер включен" : "Компьютер выключен";
-        System.out.println("Информация о компьютере: \n" + "Скорость процессора: " + processorSpeed + " GHz\n" + "Производитель: " + manufacturer + "\n" + "Статус: " + powerStatus);
+        System.out.println("Информация о компьютере: \n " + "Скорость процессора: " + processorSpeed + " GHz\n " + "Производитель: " + manufacturer + "\n " + "Статус: " + powerStatus);
     }
 }

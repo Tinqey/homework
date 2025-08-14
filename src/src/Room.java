@@ -6,8 +6,6 @@ public class Room {
     private String wallColor;
     private int doorCount;
     private int windowCount;
-    //private double roomTemp; //Реализовать!*
-    //private boolean isWindowOpen; //Реализовать!*
 
     public Room(double apartmentArea, String floorType, String wallColor, int doorCount, int windowCount) {
         this.apartmentArea = apartmentArea;
@@ -64,7 +62,7 @@ public class Room {
         return false;
     }
 
-    public void addStuff(int area){
+    public void addStuff(double area){
         if (area < apartmentArea ){
             apartmentArea -= area;
             System.out.println("Можешь еще накидать своего хлама, осталось свободных кв.м. " + apartmentArea);

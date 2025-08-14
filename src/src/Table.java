@@ -43,7 +43,7 @@ public class Table {
     }
 
     public void printTableInfo(){
-        String isEmptyInfo = (isEmpty? "На столе что-то есть" : "Стол пусть");
+        String isEmptyInfo = (isEmpty? "На столе что-то есть" : "На столе ничего нету");
         System.out.println("Информация о столе: \n Занимаемая площадь в кв.м. " + area + "\n Тип материала: " + materialType + "\n " + isEmptyInfo );
     }
 }
